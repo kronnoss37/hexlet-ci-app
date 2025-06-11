@@ -1,0 +1,18 @@
+name: check-project
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: action/setup-node@v4
+
+      - name: run setup project
+        run: make setup
+
+      - name: run eslint
+        run: make lint
+
+      - name: run tests
+        run: make test
