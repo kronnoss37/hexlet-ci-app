@@ -4,9 +4,9 @@ Starting boilerplate of [Strapi](https://strapi.io/) application
 
 ## System requirements
 
-* NodeJS >= 18
-* NPM >= 6.x
-* Make
+- NodeJS >= 18
+- NPM >= 6.x
+- Make
 
 ## Using
 
@@ -34,3 +34,7 @@ make lint
 This repository is created and maintained by the team and the community of Hexlet, an educational project. [Read more about Hexlet](https://hexlet.io/?utm_source=github&utm_medium=link&utm_campaign=hexlet-ci-app).
 
 See most active contributors on [hexlet-friends](https://friends.hexlet.io/).
+
+## Workflow
+
+[![check-project](https://github.com/kronnoss37/hexlet-ci-app/actions/workflows/check-project.yml/badge.svg)](https://github.com/kronnoss37/hexlet-ci-app/actions/workflows/check-project.yml)
